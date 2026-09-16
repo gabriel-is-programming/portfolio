@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duval-Gabriel-Portfolio/objectifs</title>
+</head>
+<body>
+    <h1>A mon sujet</h1>
+    <div id="div1">
+        <h3>Mes passions</h3>
+        <ul>
+            <li>L'informatique</li>
+            <li>L'electronique</li>
+            <li>L'astronomie</li>
+            <li>La lecture</li>
+        </ul>
+    </div>
+
+    <div id="div2">
+        <h3>Mes objectifs</h3>
+        <ul> 
+            <li>Devenir developpeur informatique</li>
+            <li>Faire 100k pompes en 2026</li>
+            <ul><li>≈35,000/100,000</li></ul>
+            <li>Tenir l'equilibre sur mes mains</li>
+            <li>Lire 10 pages par jour</li>
+            <li>Devenir independant</li>
+            <li>Gagner de l'argnet /fait</li>
+            <li>Apprendre a jouer du piano</li>
+            <li>Passer et obtenir les examens (conduite, bac) /fait</li>
+        </ul>
+    </div>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(320deg,  #000000, #02170e, rgb(1, 1, 28)) ;
+            color: rgb(0, 255, 76);
+            text-shadow: 0 0 20px rgba(1, 208, 208, 0.8);
+            background-size: 400% 400%;
+            animation: gradientMove 20s ease infinite;
+        }
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            text-align: center;
+        }
+        #div1, #div2 {
+            background-color: rgb(167, 189, 208);
+            border-radius: 30px;
+            margin: 5%;
+            padding: 2%;
+            box-shadow: 0 0 30px rgb(15, 189, 183);
+            border: solid rgb(58, 55, 55);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</body>
+</html>
